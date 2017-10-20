@@ -3,10 +3,11 @@ package controllers;
 import java.util.*;
 
 import models.User;
+import com.google.common.base.Objects;
 
 public class PacemakerAPI
 {
-	private Map<String, User> users = new HashMap<String, User>();
+	private Map<String, User> users = new HashMap<>();
 
 	public Collection<User> getUsers ()
 	  {
