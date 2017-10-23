@@ -3,11 +3,9 @@ package controllers;
 import java.util.*;
 
 import models.User;
-import com.google.common.base.Objects;
 
 public class PacemakerAPI
 {
-	private Map<String, User> users = new HashMap<>();
 	private Map<Long, User> userIndex = new HashMap<>();
 	private Map<String, User>emailIndex = new HashMap<>();
 
